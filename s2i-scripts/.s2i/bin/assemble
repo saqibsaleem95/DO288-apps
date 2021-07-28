@@ -12,7 +12,7 @@ config_s2i
 
 echo "---> Installing application source"
 cp -Rf /tmp/src/*.html ./
-DATE=date
+DATE=`date`
 echo "Page built on $DATE" >> ./info.html
 echo "Arith aofo auqk $HTTPD_VERSION" >> ./info.html
 
